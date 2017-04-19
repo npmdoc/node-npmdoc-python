@@ -70,6 +70,25 @@
 
         </li>
 
+        <li>
+
+            <span class="apidocSignatureSpan">object <span class="apidocSignatureSpan"></span>python</span>
+
+        </li>
+
+    </ol></li>
+
+    <li class="apidocModuleLi"><a href="#apidoc.module.python.python">module python.python</a><ol>
+
+        <li>
+
+            <a class="apidocElementLiA" href="#apidoc.element.python.python.shell">
+            function <span class="apidocSignatureSpan">python.python.</span>shell
+            <span class="apidocSignatureSpan">(command, callback)</span>
+            </a>
+
+        </li>
+
     </ol></li>
 
 </ol></div>
@@ -81,6 +100,31 @@
     <h2>
         <a href="#apidoc.element.python.shell" id="apidoc.element.python.shell">
         function <span class="apidocSignatureSpan">python.</span>shell
+        <span class="apidocSignatureSpan">(command, callback)</span>
+        </a>
+    </h2>
+    <ul>
+    <li>description and source-code<pre class="apidocCodePre">shell = function (command, callback) {
+  command = &#x27;print &#x22;Command Start&#x22;; &#x27; + command + &#x27;\nprint &#x22;Command End&#x22;&#x27;;
+  if (command.charAt[command.length-1]!=&#x27;\n&#x27;) command += &#x27;\n&#x27;;
+  cmdQueue.push({&#x27;command&#x27;:command, &#x27;callback&#x27;:callback, &#x27;data&#x27;: &#x27;&#x27;, state: &#x27;pending&#x27;});
+  processQueue();
+}</pre></li>
+    <li>example usage<pre class="apidocCodePre">n/a</pre></li>
+    </ul>
+
+
+
+
+</div>
+
+<div class="apidocSectionDiv">
+<h1><a href="#apidoc.module.python.python" id="apidoc.module.python.python">module python.python</a></h1>
+
+
+    <h2>
+        <a href="#apidoc.element.python.python.shell" id="apidoc.element.python.python.shell">
+        function <span class="apidocSignatureSpan">python.python.</span>shell
         <span class="apidocSignatureSpan">(command, callback)</span>
         </a>
     </h2>
